@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="Head">Welcome to JS DOM</h1>
+    <Ul>
+        <li class="it">Items 1</li>
+        <li class="it">Items 2</li>
+        <li>Items 3</li>
+        <li class="it">Items 4</li>
+        <li>Items 5</li>
+    </Ul>
+</body>
+</html>
+
+<script>
+    let HeadH1 = document.getElementById("Head");
+    HeadH1.style.color = 'green'
+    HeadH1.style.border = '2px solid red'
+
+    let ClassLi = document.getElementsByClassName("it");
+    
+    for(ss of ClassLi){
+        ss.style.color = 'brown'
+        ss.style.border = '3px solid black'
+        ss.style.margin = '8px'
+        
+    }
+
+
+
+    
+</script>
